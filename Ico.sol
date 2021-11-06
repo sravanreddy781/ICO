@@ -4,10 +4,7 @@ pragma solidity >=0.7.0 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-/**
- * @title Owner
- * @dev Set & change owner
- */
+
 contract ICO is ERC20 {
     
     address payable admin;
